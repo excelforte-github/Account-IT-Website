@@ -1,0 +1,19 @@
+/* border radius */
+#our-action {
+    border-radius: 20px;
+}
+
+/* left and right margin for navigation */
+#space-lr {
+    padding: 5px 100px;
+}
+
+
+/* media query */
+@media screen and (max-width:960px) {
+
+    /* retain margin for navigation */
+    #space-lr {
+        padding: 5px;
+    }
+}
